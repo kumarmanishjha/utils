@@ -1,0 +1,22 @@
+Creating virtual environment python
+
+Create a directory for your virtual environment
+$mkdir /home/work
+
+Install pip3
+sudo apt-get install python3-pip
+
+Install virtualenv
+$pip3 install virtualenv
+
+Create virtual environment called venv
+$python3 -m virtualenv venv
+
+Check if virtual environment directory is created:
+$ls venv
+
+Active your virtual environment:
+$source venv/bin/activate
+
+To deactivate
+$deactivate
